@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AutoCompleteTextInput!</string>
+    <string name="app_name">自動完成文字輸入</string>
+    <string name="promptAutoCompleteText">請輸入文字</string>
+    <string name="promptBtnAddAutoCompleteText">加入自動完成文字</string>
+    <string name="promptBtnClrAutoCompleteText">清除自動完成文字</string>
+</resources>

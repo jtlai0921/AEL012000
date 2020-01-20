@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">SeekBar和RatingBar Demo</string>
+    <string name="resultSeekBar">SeekBar的Progress值：</string>
+    <string name="result1RatBar">RatingBar的Rating值：</string>
+    <string name="result2RatBar">RatingBar的Progress值：</string>
+</resources>

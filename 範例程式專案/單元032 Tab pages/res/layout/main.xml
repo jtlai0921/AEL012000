@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tabHost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TabWidget android:id="@android:id/tabs"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+<FrameLayout android:id="@android:id/tabcontent"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+<LinearLayout android:id="@+id/tab1"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="70dp"
+	>
+<DatePicker android:id="@+id/datePik"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    />
+<TimePicker android:id="@+id/timePik"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    />
+<Button android:id="@+id/btnOK"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptBtnOK"
+    />
+<TextView android:id="@+id/txtResult"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/result"
+    />
+</LinearLayout>
+<LinearLayout android:id="@+id/tab2"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="70dp"
+	>
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="這是內定的ProgressBar型態："
+    />
+<ProgressBar android:id="@+id/proBar1"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    />
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="這是progressBarStyleHorizontal的型態："
+    android:layout_marginTop="20dp"
+    />
+<ProgressBar android:id="@+id/proBar2"
+	style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:max="100"
+    />
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="這是progressBarStyleLarge的型態："
+    android:layout_marginTop="20dp"
+    />
+<ProgressBar android:id="@+id/proBar3"
+	style="?android:attr/progressBarStyleLarge"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    />
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="這是progressBarStyleSmall的型態："
+    android:layout_marginTop="20dp"
+    />
+<ProgressBar android:id="@+id/proBar4"
+	style="?android:attr/progressBarStyleSmall"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
+</FrameLayout>
+</TabHost>

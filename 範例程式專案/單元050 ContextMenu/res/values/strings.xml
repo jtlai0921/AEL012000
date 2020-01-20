@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Menu and ListView 範例程式</string>
+    <string-array name="listSettings">
+		<item>選項 1</item>
+		<item>選項 2</item>
+		<item>選項 3</item>
+		<item>選項 4</item>
+		<item>選項 5</item>
+	</string-array>
+    
+</resources>

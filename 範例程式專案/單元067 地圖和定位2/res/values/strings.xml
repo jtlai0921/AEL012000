@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">MapActivity 使用範例</string>
+    <string name="prompt_select_location" >請選擇地點</string>
+</resources>

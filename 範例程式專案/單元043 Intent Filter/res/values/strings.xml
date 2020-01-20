@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Intent Filter範例</string>
+    <string name="title_MyImageAct">我的 Image Activity</string>
+</resources>

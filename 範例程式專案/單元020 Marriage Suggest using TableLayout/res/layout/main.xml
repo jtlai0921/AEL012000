@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TableRow>
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/promptSex"
+	    />
+	<RadioGroup android:id="@+id/radGSex"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="vertical"
+	    android:checkedButton="@+id/radMale">
+	
+	    <RadioButton android:id="@+id/radMale"
+	    	android:text="@string/male"
+	    	/>
+	    <RadioButton android:id="@+id/radFemale"
+	    	android:text="@string/female"
+	    	/>
+	
+	</RadioGroup>
+</TableRow>
+<TableRow>
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/promptAge"
+	    />
+	<RadioGroup android:id="@+id/radGAge"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="vertical"
+	    android:checkedButton="@+id/radAgeRng1">
+	    <RadioButton android:id="@+id/radBtnAgeRng1"
+	    	android:text="@string/maleAgeRng1"
+	    	/>
+	    <RadioButton android:id="@+id/radBtnAgeRng2"
+	    	android:text="@string/maleAgeRng2"
+	    	/>
+	    <RadioButton android:id="@+id/radBtnAgeRng3"
+	    	android:text="@string/maleAgeRng3"
+	    	/>
+	</RadioGroup>
+</TableRow>
+<Button android:id="@+id/btnDoSug"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptBtnDoSug"
+    />
+<TextView android:id="@+id/txtResult"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/sugResult"
+    />
+</TableLayout>
